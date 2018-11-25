@@ -1,0 +1,420 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+#box1{
+  height:100vh;
+  width: 100%;
+  background-image: url("market.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#box2{
+  height:100vh;
+  width: 100%;
+  background-image: url("sum1.png");
+  background-size: cover;
+  display: table; /*acts like a table */
+  background-attachment: fixed;
+}
+#box3{
+  height:100vh;
+  width: 100%;
+  background-image: url("zootopia.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#box4{
+  height:100vh;
+  width: 100%;
+  background-image: url("after1_u.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#box5{
+  height:100vh;
+  width: 100%;
+  background-image: url("after2_u.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#box6{
+  height:100vh;
+  width: 100%;
+  background-image: url("tree_u.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#box7{
+  height:100vh;
+  width: 100%;
+  background-image: url("tree_2_u.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#box8{
+  height:100vh;
+  width: 100%;
+  background-image: url("after4.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+h1{
+  color: white;
+}
+.title{
+  font-family: arial;
+  font-size: 30px;
+  color: white;
+  margin: 0px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+#welcome{
+  font-family: arial;
+  font-size: 50px;
+  color: white;
+  margin: 0px;
+  text-align: center;
+}
+
+.a{
+  /* text-indent: 40px; */
+  font-family: arial;
+  font-size: 20px;
+  color: white;
+  margin: 50px;
+  /* line-height: 0.7; */
+}
+#links{
+  text-align: center;
+}
+/*button*/
+.container {
+    position: relative;
+    width: 300%;
+    max-width: 400px;
+}
+
+.container .btn {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-465%, 840%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #E37676; /* #555*/
+    color: white; /* font color */
+    font-size: 32px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.container .btn:hover {
+    background-color: #E376A2;
+}
+
+#map{
+  position: relative;
+  height:100vh;
+  width: 100%;
+  left: 5%;
+  background-image: url("map.png");
+  /* display: table;
+  background-attachment: fixed; */
+}
+#pic1{
+  height:100vh;
+  width: 100%;
+  background-image: url("opening.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#pic2{
+  height:100vh;
+  width: 100%;
+  background-image: url("shops.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#pic3{
+  height:100vh;
+  width: 100%;
+  background-image: url("book.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#pic4{
+  height:100vh;
+  width: 100%;
+  background-image: url("hair_u.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#pic5{
+  height:100vh;
+  width: 100%;
+  background-image: url("shoe_u.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#pic6{
+  height:100vh;
+  width: 100%;
+  background-image: url("supermarket_u.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#pic7{
+  height:100vh;
+  width: 100%;
+  background-image: url("bar.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#pic8{
+  height:100vh;
+  width: 100%;
+  background-image: url("food_places_u.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+.slideshow .left {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-2250%, 700%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #4D4B4B; /* #555 */
+    color: white; /* font color */
+    font-size: 32px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.slideshow .left:hover {
+    background-color: #C1BBBB;
+}
+
+.slideshow .right {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-150%, 700%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #4D4B4B; /* #555 */
+    color: white; /* font color */
+    font-size: 32px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.slideshow .right:hover {
+    background-color: #C1BBBB;
+}
+
+#h2
+{
+  font-family: arial;
+  font-size: 50px;
+  color: white;
+  margin: 0px;
+  transform: translate(80%, -70%);
+  display: table-cell;
+
+}
+body {
+    background-image: url("background1.png");
+    /* background-repeat: no-repeat; */
+}
+#video{
+  position: relative;
+  top: 100%;
+  left: 50%;
+  transform: translate(15%, 155%);
+  -ms-transform: translate(-50%, -50%);
+}
+#text{
+  position: relative;
+  left: 100px;
+}
+
+/* food */
+#food1{
+  height:100vh;
+  width: 100%;
+  background-image: url("food_cover.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#food2{
+  height:100vh;
+  width: 100%;
+  background-image: url("brownies_u.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#food3{
+  height:100vh;
+  width: 100%;
+  background-image: url("cake_u.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#food4{
+  height:100vh;
+  width: 100%;
+  background-image: url("chips_u.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#food5{
+  height:100vh;
+  width: 100%;
+  background-image: url("ice_cream_u.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#food6{
+  height:100vh;
+  width: 100%;
+  background-image: url("lobster_u.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#food7{
+  height:100vh;
+  width: 100%;
+  background-image: url("seafood.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#food8{
+  height:100vh;
+  width: 100%;
+  background-image: url("sandwich_u.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#food9{
+  height:100vh;
+  width: 100%;
+  background-image: url("ramen_u.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#food10{
+  height:100vh;
+  width: 100%;
+  background-image: url("seasoning_u.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#food11{
+  height:100vh;
+  width: 100%;
+  background-image: url("sushi_u.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#food12{
+  height:100vh;
+  width: 100%;
+  background-image: url("taco_u.png");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+.slideshow_f .left {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-2250%, 2000%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #4D4B4B; /* #555 */
+    color: white; /* font color */
+    font-size: 32px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.slideshow_f .left:hover {
+    background-color: #C1BBBB;
+}
+
+.slideshow_f .right {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-150%, 2000%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #4D4B4B; /* #555 */
+    color: white; /* font color */
+    font-size: 32px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.slideshow_f .right:hover {
+    background-color: #C1BBBB;
+}
+.btn {
+    position: relative;
+    top: 100%;
+    left: 100%;
+    transform: translate(-370%, 750%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #6A6262; /* #555*/
+    color: white; /* font color */
+    font-size: 32px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.btn:hover {
+    background-color: #BAB6B6;
+}

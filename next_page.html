@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inside Market</title>
+    <!-- <link rel="stylesheet" type="text/css" href="index.css"> -->
+  </head>
+  <body bgcolor="#E6E6FA">
+    <h1 style="font-size: 80px; text-align:center; font-family: arial; color: black;" >The Market</h1>
+    <img id=map src="map.png" style="width:1200px; height:600px;">
+    <style>
+      #map {
+        /* transform: rotate(90deg); */
+        border-radius: 0%;
+        position: absolute;
+        top: 200px;
+        left: 230px;
+        /* transform: translate(-600%, -300%); */
+        }
+    </style>
+
+    <img id=snacks src="snacks.jpg" style="width:700px; height:auto;">
+    <h1 id=snack_name style="font-size: 80px; text-align:center; font-family: arial; color: black;">Snacks</h1>
+    <style>
+      #snacks {
+        transform: rotate(90deg);
+        border-radius: 50%;
+        position: absolute;
+        top: 2300px;
+        left: 10px;
+        /* transform: translate(-600%, -300%); */
+        }
+        #snack_name {
+            height: 200px;
+            width: 400px;
+
+            position: absolute; /*fixed stays with the screen*/
+            top: 220%;
+            left: 22%;
+            margin-top: -100px;
+            margin-left: -200px;
+          }
+    </style>
+
+    <img id=bookstore src="bookstore.png" style="width:800px; height:auto; vertical-align: middle;">
+    <h1 id=book style="font-size: 80px; text-align:center; font-family: arial; color: black;" >Bookstore</h1>
+    <style>
+      #bookstore {
+        /* transform: rotate(90deg); */
+        border-radius: 0%;
+        position: absolute;
+        top: 900px;
+        left: 50px;
+        /* transform: translate(-600%, -300%); */
+        }
+      #book {
+          height: 200px;
+          width: 400px;
+
+          position: absolute; /*fixed stays with the screen*/
+          top: 120%;
+          left: 75%;
+          margin-top: -100px;
+          margin-left: -200px;
+        }
+    </style>
+
+
+    <img id=shoe src="shoe.png" style="width:800px; height:auto; vertical-align: middle;">
+    <h1 id=shoe_name style="font-size: 80px; text-align:center; font-family: arial; color: black;">Shoe Polishing Store</h1>
+    <style>
+      #shoe {
+        /* transform: rotate(90deg); */
+        border-radius: 0%;
+        position: absolute;
+        top: 1500px;
+        left: 700px;
+        /* transform: translate(-600%, -300%); */
+        }
+        #shoe_name {
+            height: 200px;
+            width: 400px;
+
+            position: absolute; /*fixed stays with the screen*/
+            top: 170%;
+            left: 22%;
+            margin-top: -100px;
+            margin-left: -200px;
+          }
+    </style>
+
+    <img id=hair src="hair.png" style="width:500px; height:auto; vertical-align: middle;">
+    <h1 id=hair_name style="font-size: 80px; text-align:center; font-family: arial; color: black;">Hair Salon</h1>
+    <style>
+      #hair {
+        /* transform: rotate(90deg); */
+        border-radius: 10%;
+        position: absolute;
+        top: 2200px;
+        left: 900px;
+        /* transform: translate(-600%, -300%); */
+        }
+        #hair_name {
+            height: 200px;
+            width: 400px;
+
+            position: absolute; /*fixed stays with the screen*/
+            top: 220%;
+            left: 70%;
+            margin-top: -100px;
+            margin-left: -200px;
+          }
+    </style>
+
+    <!-- <div id="map">
+      <h1></h1>
+      <div class="container">
+        <button class="btn" type="button" onclick="location.href='next_page.html';">ENTRANCE</button>
+      </div>
+    </div> -->
+    <h1 id=food style="font-size: 80px; text-align:center; font-family: arial; color: black;">Food Section</h1>
+    <style>
+    #food {
+        /* height: 200px;
+        width: 400px; */
+
+        position: absolute; /*fixed stays with the screen*/
+        top: 320%;
+        left: 50%;
+        margin-top: -100px;
+        margin-left: -200px;
+      }
+    </style>
+
+    <img id=brownies src="brownies.png" style="width:500px; height:auto; vertical-align: middle;">
+    <h1 id=brownies_name style="font-size: 80px; text-align:center; font-family: arial; color: black;">Brownies</h1>
+    <style>
+      #brownies {
+        /* transform: rotate(90deg); */
+        border-radius: 10%;
+        position: absolute;
+        top: 3400px;
+        left: 100px;
+        /* transform: translate(-600%, -300%); */
+        }
+        #brownies_name {
+            height: 200px;
+            width: 400px;
+
+            position: absolute; /*fixed stays with the screen*/
+            top: 340%;
+            left: 20%;
+            margin-top: -100px;
+            margin-left: -200px;
+          }
+    </style>
+
+    <img id=ramen src="ramen.png" style="width:500px; height:auto; vertical-align: middle;">
+    <h1 id=ramen_name style="font-size: 80px; text-align:center; font-family: arial; color: black;">Ramen</h1>
+    <style>
+      #ramen {
+        /* transform: rotate(90deg); */
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        position: absolute;
+        top: 3400px;
+        left: 900px;
+        /* transform: translate(-600%, -300%); */
+        }
+        #ramen_name {
+            height: 200px;
+            width: 400px;
+
+            position: absolute; /*fixed stays with the screen*/
+            top: 340%;
+            left: 70%;
+            margin-top: -100px;
+            margin-left: -200px;
+          }
+    </style>
+
+    <img id=spices src="spices.png" style="width:500px; height:auto; vertical-align: middle;">
+    <h1 id=spices_name style="font-size: 80px; text-align:center; font-family: arial; color: black;">Spices</h1>
+    <style>
+      #spices {
+        /* transform: rotate(90deg); */
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        position: absolute;
+        top: 3900px;
+        left: 100px;
+        /* transform: translate(-600%, -300%); */
+        }
+        #spices_name {
+            height: 200px;
+            width: 400px;
+
+            position: absolute; /*fixed stays with the screen*/
+            top: 390%;
+            left: 20%;
+            margin-top: -100px;
+            margin-left: -200px;
+          }
+    </style>
+
+    <img id=sandwhich src="sandwhich.png" style="width:500px; height:auto; vertical-align: middle;">
+    <h1 id=sandwhich_name style="font-size: 80px; text-align:center; font-family: arial; color: black;">Sandwhich</h1>
+    <style>
+      #sandwhich {
+        /* transform: rotate(90deg); */
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        position: absolute;
+        top: 3900px;
+        left: 900px;
+        /* transform: translate(-600%, -300%); */
+        }
+        #sandwhich_name {
+            height: 200px;
+            width: 400px;
+
+            position: absolute; /*fixed stays with the screen*/
+            top: 390%;
+            left: 70%;
+            margin-top: -100px;
+            margin-left: -200px;
+          }
+    </style>
+
+    <img id=lobsters src="lobsters.png" style="width:500px; height:auto; vertical-align: middle;">
+    <h1 id=lobsters_name style="font-size: 80px; text-align:center; font-family: arial; color: black;">Lobsters</h1>
+    <style>
+      #lobsters {
+        /* transform: rotate(90deg); */
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        position: absolute;
+        top: 4400px;
+        left: 900px;
+        /* transform: translate(-600%, -300%); */
+        }
+        #lobsters_name {
+            height: 200px;
+            width: 400px;
+
+            position: absolute; /*fixed stays with the screen*/
+            top: 440%;
+            left: 70%;
+            margin-top: -100px;
+            margin-left: -200px;
+          }
+    </style>
+
+    <img id=tacos src="tacos.png" style="width:500px; height:auto; vertical-align: middle;">
+    <h1 id=tacos_name style="font-size: 80px; text-align:center; font-family: arial; color: black;">Tacos</h1>
+    <style>
+      #tacos {
+        /* transform: rotate(90deg); */
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        position: absolute;
+        top: 4400px;
+        left: 100px;
+        /* transform: translate(-600%, -300%); */
+        }
+        #tacos_name {
+            height: 200px;
+            width: 400px;
+
+            position: absolute; /*fixed stays with the screen*/
+            top: 440%;
+            left: 20%;
+            margin-top: -100px;
+            margin-left: -200px;
+          }
+    </style>
+
+    <img id=meal src="meal.png" style="width:800px; height:auto; vertical-align: middle;">
+    <!-- <h1 id=meal_name style="font-size: 80px; text-align:center; font-family: arial; color: black;">Tacos</h1> -->
+    <style>
+      #meal {
+        /* transform: rotate(90deg); */
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+
+        position: absolute;
+        top: 4800px;
+        left: 400px;
+        /* transform: translate(-600%, -300%); */
+        }
+    </style>
+
+    <h1 id=end style="font-size: 1px; text-align:center; font-family: arial; color: black;">.</h1>
+    <style>
+      #end{
+        position: absolute;
+        top: 5600px;
+        left: 400px;
+      }
+    </style>
+  </body>
+</html>
